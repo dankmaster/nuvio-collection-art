@@ -1,0 +1,13 @@
+{
+  "name": "nuvio-collection-art",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:genre-art": "node scripts/build-genre-art.mjs"
+  },
+  "dependencies": {
+    "@iconify-json/ph": "1.2.2",
+    "@iconify/utils": "3.1.4",
+    "sharp": "0.35.3"
+  }
+}
