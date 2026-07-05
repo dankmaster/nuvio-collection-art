@@ -16,6 +16,13 @@ const contactSheetPath = path.join(repoRoot, "genres", "v2-contact-sheet.jpg");
 
 const items = [
   {
+    slug: "anime",
+    title: "Anime",
+    kind: "FILM",
+    icon: "shooting-star-bold",
+    colors: ["#111A33", "#37D6FF", "#FF5CA8"],
+  },
+  {
     slug: "action",
     title: "Action",
     kind: "FILM",
@@ -84,6 +91,13 @@ const items = [
     kind: "FILM",
     icon: "fingerprint-bold",
     colors: ["#171B1F", "#4A6378", "#F7D08A"],
+  },
+  {
+    slug: "series-anime",
+    title: "Anime",
+    kind: "SERIE",
+    icon: "star-four-bold",
+    colors: ["#12172E", "#7C5CFF", "#72F2C8"],
   },
   {
     slug: "series-crime",
